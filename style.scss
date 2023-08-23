@@ -107,4 +107,137 @@ picture{
     height: 400px;
     background-color: #FFF;
     margin-top: -5px;
+    & h2{
+        text-align: center;
+        padding: 30px;
+        color: #24303E;
+        font-size: 32px;
+        font-weight: 900;
+        letter-spacing: -0.229px;
+    }
+    & p{
+        text-align: center;
+        font-size: 18px;
+        padding: 0 24px 30px 9px;
+        color: #808397 ;
+        font-weight: 600;
+        letter-spacing: -0.129px;
+        line-height: 30px;
+    }
+    & a{
+        color:#24303E;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 25px;
+        padding: 120px;
+
+    }
+}
+.default{
+    width: 375px;
+    height: auto;
+    & img{
+        max-width: 100%;
+        margin-top: -5px;
+    }
+
+    .graphic h2{
+        position: absolute;
+        text-align: center;
+        color: #24554A;
+        left: 30%;
+        font-weight: 900;
+        letter-spacing: -0.2px;
+        font-size: 28px;
+        margin-top: -190px;
+        margin-right: 45px;
+        
+    }
+    & p{
+        position: absolute;
+        margin-top: -120px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        color: #24554A;
+        letter-spacing: -0.114px;
+        line-height: 27px;
+    }
+.oreng h2{
+    position: absolute;
+    text-align: center;
+    color: #052C3B;
+    left: 30%;
+    font-weight: 900;
+    letter-spacing: -0.2px;
+    font-size: 28px;
+    margin-top: -190px;
+    margin-right: 45px;
+    
+}
+& p{
+    position: absolute;
+    margin-top: -120px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #19536C;
+    letter-spacing: -0.114px;
+    line-height: 27px;
+    
+
+}
+}
+
+.testimonals{
+    background: #FFF;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    min-height: 100vh;
+    margin-top: -13px;
+    & .person{
+        h3{
+            padding: 50px 0 20px 60px;
+            color: #A7AAAD;
+            font-size: 16px;
+            font-weight: 900;
+            letter-spacing: 4px;
+        }
+        & img{
+            border: 1px solid #FFFFFF;
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            margin: 16px 0 24px 170px;
+        }
+        & p{
+            color:#5B636D;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: -0.129px;
+            padding: 0 20px 40px;
+        }
+        & h4{
+            text-align: center;
+            color: #24303E;
+            font-size: 18px;
+            font-weight:900;
+            letter-spacing: -0.129px;
+            padding: 10px;
+        }
+        & span{
+            color: #A7AAAD;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -0.1px;
+           padding: 120px ;
+        }
+    }
+    
 }
