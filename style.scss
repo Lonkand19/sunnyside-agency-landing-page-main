@@ -26,7 +26,6 @@ nav{
     width: 329px;
     height: 305px;
     text-align: center;
-
     
     & a{
         color: rgba(128, 131, 151, 1);
@@ -198,6 +197,7 @@ picture{
     align-items: center;
     gap: 64px;
     min-height: 100vh;
+    width: 100vw;
     margin-top: -13px;
     & .person{
         h3{
@@ -212,7 +212,7 @@ picture{
             width: 72px;
             height: 72px;
             border-radius: 50%;
-            margin: 16px 0 24px 170px;
+            margin: 16px 0 24px 150px;
         }
         & p{
             color:#5B636D;
@@ -239,5 +239,117 @@ picture{
            padding: 120px ;
         }
     }
-    
+    .person2{
+        h3{
+            padding: 50px 0 20px 60px;
+            color: #A7AAAD;
+            font-size: 16px;
+            font-weight: 900;
+            letter-spacing: 4px;
+        }
+        & img{
+            border: 1px solid #FFFFFF;
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            margin: 16px 0 24px 150px;
+        }
+        & p{
+            color:#5B636D;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: -0.129px;
+            padding: 0 20px 40px;
+        }
+        & h4{
+            text-align: center;
+            color: #24303E;
+            font-size: 18px;
+            font-weight:900;
+            letter-spacing: -0.129px;
+            padding: 10px;
+        }
+        & span{
+            color: #A7AAAD;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -0.1px;
+            padding: 100px;
+           
+        }
+    }
+    .person3{
+        h3{
+            padding: 50px 0 20px 60px;
+            color: #A7AAAD;
+            font-size: 16px;
+            font-weight: 900;
+            letter-spacing: 4px;
+        }
+        & img{
+            border: 1px solid #FFFFFF;
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            margin: 16px 0 24px 150px;
+        }
+        & p{
+            color:#5B636D;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: -0.129px;
+            padding: 0 20px 40px;
+        }
+        & h4{
+            text-align: center;
+            color: #24303E;
+            font-size: 18px;
+            font-weight:900;
+            letter-spacing: -0.129px;
+            padding: 10px;
+        }
+        & span{
+            color: #A7AAAD;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -0.1px;
+           padding: 130px;
+        }
+    }
+
+}
+
+.gallery{
+    display: flex;
+}
+.footer{
+    width: 375px;
+    height: 350px;
+    align-items: center;
+    background: #90D4C6;
+    margin-top: -5px;
+    & img{
+        padding: 50px 0 0 120px;
+    }
+    .end{
+        & ul{
+            display: flex;
+            padding: 30px 0 25px 45px;
+            gap: 34px;
+            list-style: none;
+        
+        & a{
+            text-decoration: none;
+            color: #458D7E;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: -0.129px;
+        }
+    }
+    }
 }

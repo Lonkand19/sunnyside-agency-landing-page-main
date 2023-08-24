@@ -195,6 +195,7 @@ picture img {
   align-items: center;
   gap: 64px;
   min-height: 100vh;
+  width: 100vw;
   margin-top: -13px;
 }
 .testimonals .person h3 {
@@ -209,7 +210,7 @@ picture img {
   width: 72px;
   height: 72px;
   border-radius: 50%;
-  margin: 16px 0 24px 170px;
+  margin: 16px 0 24px 150px;
 }
 .testimonals .person p {
   color: #5B636D;
@@ -234,4 +235,109 @@ picture img {
   font-weight: 600;
   letter-spacing: -0.1px;
   padding: 120px;
+}
+.testimonals .person2 h3 {
+  padding: 50px 0 20px 60px;
+  color: #A7AAAD;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+.testimonals .person2 img {
+  border: 1px solid #FFFFFF;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin: 16px 0 24px 150px;
+}
+.testimonals .person2 p {
+  color: #5B636D;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.129px;
+  padding: 0 20px 40px;
+}
+.testimonals .person2 h4 {
+  text-align: center;
+  color: #24303E;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: -0.129px;
+  padding: 10px;
+}
+.testimonals .person2 span {
+  color: #A7AAAD;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+  padding: 100px;
+}
+.testimonals .person3 h3 {
+  padding: 50px 0 20px 60px;
+  color: #A7AAAD;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+.testimonals .person3 img {
+  border: 1px solid #FFFFFF;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin: 16px 0 24px 150px;
+}
+.testimonals .person3 p {
+  color: #5B636D;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.129px;
+  padding: 0 20px 40px;
+}
+.testimonals .person3 h4 {
+  text-align: center;
+  color: #24303E;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: -0.129px;
+  padding: 10px;
+}
+.testimonals .person3 span {
+  color: #A7AAAD;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+  padding: 130px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.footer {
+  width: 375px;
+  height: 350px;
+  align-items: center;
+  background: #90D4C6;
+  margin-top: -5px;
+}
+.footer img {
+  padding: 50px 0 0 120px;
+}
+.footer .end ul {
+  display: flex;
+  padding: 30px 0 25px 45px;
+  gap: 34px;
+  list-style: none;
+}
+.footer .end ul a {
+  text-decoration: none;
+  color: #458D7E;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.129px;
 }/*# sourceMappingURL=style.css.map */
